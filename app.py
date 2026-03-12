@@ -7,7 +7,7 @@ from googletrans import Translator
 from streamlit_lottie import st_lottie
 
 st.title('Análisis de Sentimiento')
-image = Image.open('emoticones.jpg')
+image = Image.open('Emociones.jpg')
 st.image(image)
 st.subheader("Por favor escribe en el campo de texto la frase que deseas analizar")
 
