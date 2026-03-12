@@ -4,6 +4,7 @@ import streamlit as st
 from PIL import Image
 import json
 from googletrans import Translator
+from stream_lottie import st_lottie
 
 st.title('Análisis de Sentimiento')
 image = Image.open('emoticones.jpg')
